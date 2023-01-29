@@ -7,6 +7,7 @@ body{
     padding: 0;   
     overflow-x: hidden;
 }
+/* Inicio de los estilos de la barra de navegación*/
 .all-nav{
     display: flex;
 }
@@ -16,6 +17,7 @@ body{
     width: 100vw;
     max-width: 100%;
 }
+/* Inicio de los estilos del menu desplegable*/
 .navbar-toggler{
     background-color: black;
 }
@@ -51,6 +53,7 @@ body{
     margin-left: 1.2rem;
     color: white;
 }
+/* Estilos del logo de la barra de navegación*/
 .logo-c{
     display: flex;
     position: relative;
@@ -63,12 +66,14 @@ body{
 .navbar-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
+/* Inicio de los estilos del icono del carrito*/
 .bi.bi-cart2{
     position: absolute;
     right: 2%;
     font-size: 1.3rem;
     top: 35%;
 }
+/* Inicio de los estilos del div principal con imagen de fondo y el texto "gift vouchers"*/
 .principal-voucher{
     width: 100%;
     height: 35rem;
@@ -86,6 +91,7 @@ body{
     font-family: 'League Gothic', sans-serif;
     font-size: 3.5rem;
 }
+/* Inicio de los estilos del grid de las cards con las imagenes de los vouchers*/
 .carrusel-img{
     width: 65%;
     text-align: left;
@@ -117,6 +123,7 @@ body{
     color: rgb(75, 75, 75);
     font-size: 1.2rem;
 }
+/* Inicio de los estilos del div de la parte inferior tras los cards vouchers con el telefono de contacto y un boton*/
 .need-help{
     display: flex;
     flex-direction: column;
@@ -155,10 +162,10 @@ body{
     width: 11rem;
     border-radius: 0px !important;
 }
+/* Inicio de los estilos de las columnas location y shop del footer */
 .all-footer{
     margin-top: 7rem;
 }
-
 .links-foot{
     display: flex;
     justify-content: center;
@@ -173,6 +180,7 @@ body{
 .link-foot:hover{
     color: rgb(141, 141, 141);
 }
+/* Inicio de los estilos de los logos de metodo de pago*/
 .pay-logos{
     display: flex;
     justify-content: center;
@@ -194,6 +202,7 @@ body{
 .powered{
     margin-top: 1.1rem;
 }
+/* Inicio de las media query*/
 @media(max-width: 576px){
     .links-foot{
         flex-direction: column;
