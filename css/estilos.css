@@ -1,10 +1,18 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
+body{
+    margin: 0;
+    padding: 0;   
+}
+/* Inicio de la parte principal con la imagen de fondo que ocupa el 100% del ancho y con el menu de acceso a las restantes paginas*/
 .foto-principal{
     width: 100%;
     height: 1080px;
+    margin: 0;
+    padding: 0;
 }
 .caravan{
     margin-top: 20px;
@@ -26,12 +34,14 @@
 .all-loc{
     font-size: 1.5rem;
 }
+/* Estilos de letra generales para todas las palabras de menus y links*/
 .styles-3{
     color: white;
     text-align: center;
     font-family: 'League Gothic', sans-serif;
     font-weight: 500;
 }
+/* Comienzo de los estilos de la parte con tres imagenes en linea que dan acceso al resto de paginas*/
 .carrusel{
     
     width: 100%;
@@ -50,6 +60,7 @@
     width: 33.34%;
     height: 560px;
 }
+/* Estilos de las letras en veganuary y su logo*/
 .vegan{
     display: flex;
     justify-content: center;
@@ -58,7 +69,6 @@
     width: 150px;
     margin-top: 5rem;
 }
-
 .word-veganuary{
     margin-top: 5rem;
     font-size: 2rem;
@@ -67,6 +77,7 @@
     margin-top: 5rem;
     font-size: 1.3rem;
 }
+/* Estilos de las letras en cocktails*/
 .cocktails{
     position: relative;
     font-size: 2rem;
@@ -77,6 +88,7 @@
     font-size: 1.3rem;
     position: relative;
 }
+/* Estilos de las letras en vouchers*/
 .voucher{
     font-size: 2rem;
     position: relative;
@@ -87,13 +99,7 @@
     position: relative;
     top: 70%;
 }
-/*.to-the{
-    position: relative;
-    width: 100%;
-    height: 2rem;
-    top: 80%;
-    background-color: black;
-}*/
+/* Estilos de la barra inferior negra de las 3 imagenes con la frase to the*/
 .top-div{
     font-size: 1.3rem;
     background-color: black;
@@ -107,15 +113,11 @@
     height: 100%;
     top: 18%;
 }
-.styles-top{
-    color: white;
-    text-align: center;
-    font-family: 'League Gothic', sans-serif;
-    font-weight: 500;
-}
+/* Comienzo de los estilos de la parte del footer*/
 .footer{
     width: 100%;
 }
+/* Estilos de location*/
 .location-shop{
     height: 100%;
     width: 100%;
@@ -134,6 +136,7 @@
     text-align: left;
     font-size: 1.4rem;
 }
+/* Estilos de la columna derecha que comienza con shop*/
 .other-list{
     color: rgb(62, 62, 62);
 }
@@ -145,14 +148,15 @@
     color: white;
 }
 .right-foot{
-    
     margin-top: 5.3rem;
 }
-
+/* Estilos del formulario del footer*/
 #airship_signup_form{
     margin-top: 5rem;
     width: 38rem;
 }
+/* Estilos de las partes de copyright y terminos de uso que finalizan la pagina inicial*/
+/* Copyright*/
 .styles-footer-copy{
     color: rgb(62, 62, 62);
     font-family: 'League Gothic', sans-serif;
@@ -174,6 +178,7 @@
 .terms{
     width: 40%;
 }
+/* Terminos de uso*/
 .styles-footer-copy-1{
     color: rgb(62, 62, 62);
     text-align: center;
@@ -183,18 +188,17 @@
     text-align: right;
     margin-right: 2.5rem;
 }
+/* Inicio de las media query*/
 @media(max-width:576px){
     .styles-footer-copy{
         font-size: 0.68rem;
         margin-left: 1rem;
-        
     }
     .styles-footer-copy-1{
         font-size: 0.68rem;
         margin-right: 0;
     }
 }
-
 @media(max-width: 992px){
     .carrusel{
         display: block;
@@ -208,13 +212,9 @@
     #gift-voucher{
         width: 100%;
     }
-   
-
-
 }
 @media(max-width:1200px){
     #airship_signup_form{
         width: 100%;
     }
-    
 }
