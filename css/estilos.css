@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.foto-principal{
+    width: 100%;
+    height: 1080px;
+}
+.caravan{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.nav-principal{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    gap: 1.4rem;
+    font-size: 1.5rem;
+    margin-top: 2.3rem;
+}
+.principal-gac{
+    text-decoration: none;
+    color: white;
+}
+.all-loc{
+    font-size: 1.5rem;
+}
+.styles-3{
+    color: white;
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 500;
+}
+.carrusel{
+    
+    width: 100%;
+    display: flex;
+}
+#veganuary{
+    width: 33.33%;
+    height: 560px; 
+}
+#menus{
+    width: 33.33%;
+    height: 560px;
+    background-repeat: no repeat;
+} 
+#gift-voucher{
+    width: 33.34%;
+    height: 560px;
+}
+.vegan{
+    display: flex;
+    justify-content: center;
+}
+.vegan-logo{
+    width: 150px;
+    margin-top: 5rem;
+}
+
+.word-veganuary{
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+.vegan-options{
+    margin-top: 5rem;
+    font-size: 1.3rem;
+}
+.cocktails{
+    position: relative;
+    font-size: 2rem;
+    top: 25%;
+}
+.see{
+    top: 63%;
+    font-size: 1.3rem;
+    position: relative;
+}
+.voucher{
+    font-size: 2rem;
+    position: relative;
+    top: 25%;
+}
+.see-now{
+    font-size: 1.3rem;
+    position: relative;
+    top: 70%;
+}
+/*.to-the{
+    position: relative;
+    width: 100%;
+    height: 2rem;
+    top: 80%;
+    background-color: black;
+}*/
+.top-div{
+    font-size: 1.3rem;
+    background-color: black;
+     height: 3rem;
+     position: relative;
+ }
+.to-the{
+    margin-top: 0rem;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 18%;
+}
+.styles-top{
+    color: white;
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 500;
+}
+.footer{
+    width: 100%;
+}
+.location-shop{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.location{
+    display: inline-block;
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+.styles-footer{
+    color: black;
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+    list-style-type: none;
+    text-align: left;
+    font-size: 1.4rem;
+}
+.other-list{
+    color: rgb(62, 62, 62);
+}
+.journal{
+    display: inline-block;
+    margin-top: 0rem;
+}
+.point-list{
+    color: white;
+}
+.right-foot{
+    
+    margin-top: 5.3rem;
+}
+
+#airship_signup_form{
+    margin-top: 5rem;
+    width: 38rem;
+}
+.styles-footer-copy{
+    color: rgb(62, 62, 62);
+    font-family: 'League Gothic', sans-serif;
+    list-style-type: none;
+    font-size: 0.95rem;
+    margin-left: 2.5rem;
+}
+.copyright{
+    display: flex;
+    position: relative;
+    top: 10%;
+    width: 100%;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+.copy-row{
+    width: 60%;
+}
+.terms{
+    width: 40%;
+}
+.styles-footer-copy-1{
+    color: rgb(62, 62, 62);
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+    list-style-type: none;
+    font-size: 0.9rem;
+    text-align: right;
+    margin-right: 2.5rem;
+}
+@media(max-width:576px){
+    .styles-footer-copy{
+        font-size: 0.68rem;
+        margin-left: 1rem;
+        
+    }
+    .styles-footer-copy-1{
+        font-size: 0.68rem;
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 992px){
+    .carrusel{
+        display: block;
+    }
+    #veganuary{
+        width: 100%;
+    }
+    #menus{
+        width: 100%;
+    }
+    #gift-voucher{
+        width: 100%;
+    }
+   
+
+
+}
+@media(max-width:1200px){
+    #airship_signup_form{
+        width: 100%;
+    }
+    
+}

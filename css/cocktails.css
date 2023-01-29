@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;   
+    overflow-x: hidden;
+}
+.all-nav{
+    display: flex;
+}
+.barra-navegador{
+    background-color: black;
+    display: flex;
+    width: 100vw;
+    max-width: 100%;
+}
+.navbar-toggler{
+    background-color: black;
+}
+#offcanvasDarkNavbar{
+    background-color: black;
+}
+.link-other{
+    margin-top: 1.2rem;
+    margin-left: 1.2rem;
+}
+.link-browse{
+    margin-bottom: 2rem;
+    margin-left: 1.2rem;
+    font-family: 'Frank Ruhl Libre', serif !important;
+    color: white !important;
+    font-size: 1.5rem !important;
+}
+.link-basket{
+    margin-left: 1.2rem;
+}
+.link-other{
+    font-family: 'Frank Ruhl Libre', serif !important;
+    color: white !important;
+    font-size: 1.2rem !important;
+}
+.web{
+    margin-bottom: 18rem;
+}
+.logo-phone{
+    margin-top: 1.2rem;
+}
+.bi.bi-telephone{
+    margin-left: 1.2rem;
+    color: white;
+}
+.logo-c{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-right: 2rem;
+}
+.header-logo{
+    display: block;
+}
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.bi.bi-cart2{
+    position: absolute;
+    right: 2%;
+    font-size: 1.3rem;
+    top: 35%;
+}
+.principal-voucher{
+    width: 100%;
+    height: 35rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.gift-voucher{
+   display: flex;
+   align-items: center;
+   margin-top: 7rem;
+}
+.gift-title{
+    color: white;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 3.5rem;
+}
+.carrusel-img{
+    width: 65%;
+    text-align: left;
+    position: relative;
+    left: 20%;
+    margin-top: 2rem !important;
+}
+.col{
+    border-radius: 0px !important;
+    margin-top: 2rem !important;
+}
+.card{
+    border-radius: 0px !important;
+}
+.card:hover{
+    transform: translate(0,-5px);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.img-car{
+    height: 232px;
+}
+.card-title{
+    font-family: 'Frank Ruhl Libre', serif ;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.card-text{
+    color: rgb(75, 75, 75);
+    font-size: 1.2rem;
+}
+.need-help{
+    display: flex;
+    flex-direction: column;
+    top: 20%;
+    border: solid 1px rgb(211, 211, 211);
+    height: 250px !important;
+}
+.need-some{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.9rem;
+}
+.need{
+    font-family: 'Frank Ruhl Libre', serif ;
+    font-weight: 700;
+}
+.call-us{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+.message{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5%;
+}
+.send-us{
+    font-family: 'Frank Ruhl Libre', serif !important;
+    font-weight: 600 !important;
+    background-color: black !important;
+    font-size: 0.9rem !important;
+    height: 3.5rem;
+    width: 11rem;
+    border-radius: 0px !important;
+}
+.all-footer{
+    margin-top: 7rem;
+}
+
+.links-foot{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.link-foot{
+    text-decoration: none;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 1.1rem;
+    color: black;
+}
+.link-foot:hover{
+    color: rgb(141, 141, 141);
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cont-suscribe{
+    margin-top: 4rem;
+}
+.form-suscribe{
+    width: 30rem !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
+    text-align: center;
+}
+.btn-suscribe{
+    background-color: black !important;
+    border-radius: 1px !important;
+    width: 30rem !important;
+    height: 2.6rem !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
+}
+.get-off{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 4rem;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.share{
+    gap: 1.5rem;
+    display: flex;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+}
+
+@media(max-width: 576px){
+    .links-foot{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-title{
+        font-size: 0.87rem;
+    }
+    .card-text{
+        font-size: 1.1rem;
+        
+    }
+    .gift-title{
+        font-size: 2.7rem;
+    }
+    .form-suscribe{
+        width: 18rem !important;
+    }
+    .btn-suscribe{
+        width: 18rem !important;
+    }
+    .get-off{
+        width: 18rem;
+    }
+}
+@media(max-width:772px){
+    .link-foot{
+        font-size: 0.86rem;
+    }
+    .principal-voucher{
+        background-image: url(../images/cocktails-back-peq-def.jpg) !important;
+    }
+    .gift-title{
+        margin-bottom: 7rem;
+    }
+}
+@media(max-width:992px){
+    .card-title{
+        font-size: 0.9rem;
+    }
+}
