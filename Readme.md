@@ -23,8 +23,18 @@
 Proyecto desarrollado para la segunda entrega de proyectos del bootcamp geekshubsacademy el cual consiste en la realización de una Landing page de un restaurante con diferentes apartados como el de menú, localización, cocteles y vales de descuento.
 
 Pagina web completamente funcional con navegación fluida por sus diferentes páginas y menús.
+|Entrada a la pàgina principal|Imagenes con link de acceso| Formulario de información|
+|-|-|-|
+|![](./images/CaravanPrincipal.JPG)|![](./images/CapturaCarruselimg.JPG)| ![](./images/formReadme.JPG)|
 
-![](./images/american-food.jpg)![](./images/american-food.jpg)
+|Parte de la pagina vouchers|Botón de suscripción| Metodos de pago|
+|-|-|-|
+|![](./images/vouchersCapture.JPG)|![](./images/sendUsCaptura.JPG)| ![](./images/logos-pago-captura.JPG)|
+
+|Formulario de suscripción|Link al veganuary en pdf| Logos del veganuary con texto|
+|-|-|-|
+|![](./images/formulario-suscribe.JPG)|![](./images/veganuaryCapture.JPG)| ![](./images/capturalogosVeganuary.JPG)|
+
 ### Estado del proyecto
 Proyecto Finalizado.
 ### Características de la aplicación y demostración
