@@ -43,9 +43,16 @@ body{
     color: white !important;
     font-size: 1.2rem !important;
 }
-.web{
-    margin-bottom: 18rem;
+/* Estilos del mapa de localización*/
+.map{
+    margin-left: 1rem !important;
+    margin-bottom: 2rem;
 }
+.loc{
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+/* Estilos del contacto y telefono*/
 .logo-phone{
     margin-top: 1.2rem;
 }
