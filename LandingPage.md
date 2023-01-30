@@ -1,23 +1,23 @@
 # Landing page Caravan
 
 ## Índice
-* Descripción del proyecto
+1. Descripción del proyecto
 
-* Estado del proyecto
+2. Estado del proyecto
 
-* Características de la aplicación y demostración
+3. Características de la aplicación y demostración
 
-* Acceso al proyecto
+4. Acceso al proyecto
 
-* Tecnologías utilizadas
+5. Tecnologías utilizadas
 
-* Personas Contribuyentes
+6. Personas Contribuyentes
 
-* Personas-Desarrolladores del Proyecto
+7. Personas-Desarrolladores del Proyecto
 
-* Licencia
+8. Licencia
 
-* Conclusión
+9. Conclusión
   
 ### Descripción del proyecto
 Proyecto desarrollado para la segunda entrega de proyectos del bootcamp geekshubsacademy el cual consiste en la realización de una Landing page de un restaurante con diferentes apartados como el de menú, localización, cocteles y vales de descuento.
