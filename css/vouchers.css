@@ -5,7 +5,6 @@
 body{
     margin: 0;
     padding: 0;   
-    overflow-x: hidden;
 }
 /* Inicio de los estilos de la barra de navegación*/
 .all-nav{
@@ -220,7 +219,6 @@ body{
     }
     .card-text{
         font-size: 1.1rem;
-        
     }
     .gift-title{
         font-size: 2.7rem;

@@ -4,8 +4,7 @@
 }
 body{
     margin: 0;
-    padding: 0;   
-    overflow-x: hidden;
+    padding: 0;  
 }
 /* Inicio de los estilos de la barra de navegación*/
 .all-nav{
@@ -173,7 +172,6 @@ body{
 .all-footer{
     margin-top: 7rem;
 }
-
 .links-foot{
     display: flex;
     justify-content: center;
@@ -235,7 +233,6 @@ body{
     }
     .card-text{
         font-size: 1.1rem;
-        
     }
     .gift-title{
         font-size: 2.7rem;

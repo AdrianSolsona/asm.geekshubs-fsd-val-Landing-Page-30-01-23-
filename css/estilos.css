@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 body{
     margin: 0;
@@ -56,10 +55,6 @@ body{
     height: 560px;
     background-repeat: no repeat;
 } 
-#gift-voucher{
-    width: 33.34%;
-    height: 560px;
-}
 /* Estilos de las letras en veganuary y su logo*/
 .vegan{
     display: flex;
@@ -179,11 +174,7 @@ body{
     width: 40%;
 }
 /* Terminos de uso*/
-.styles-footer-copy-1{
-    color: rgb(62, 62, 62);
-    text-align: center;
-    font-family: 'League Gothic', sans-serif;
-    list-style-type: none;
+.copy-2{
     font-size: 0.9rem;
     text-align: right;
     margin-right: 2.5rem;

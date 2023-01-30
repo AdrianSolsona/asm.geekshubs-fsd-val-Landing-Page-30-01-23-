@@ -5,7 +5,6 @@
 body{
     margin: 0;
     padding: 0;   
-    overflow-x: hidden;
 }
 /* Inicio de los estilos de la barra de navegación*/
 .all-nav{
@@ -179,7 +178,6 @@ body{
 .need-some{
     display: flex;
     justify-content: center;
-    
 }
 .need{
     font-family: 'Frank Ruhl Libre', serif ;
@@ -220,8 +218,7 @@ body{
     white-space: wrap;
     overflow: hidden;
     font-family: 'Cutive Mono', monospace;
-    font-weight: 500;
-    
+    font-weight: 500;  
 }
 /* Estilos del link superior a la imagen del veganuary en color azul verdoso*/
 .title-link{
@@ -274,9 +271,7 @@ body{
 .btn-suscribe{
     background-color: black !important;
     border-radius: 1px !important;
-    width: 30rem !important;
     height: 2.6rem !important;
-    font-family: 'Frank Ruhl Libre', serif !important;
 }
 /* Estilos del texto final anterior a los logos de redes sociales */
 .get-off{
@@ -303,8 +298,7 @@ body{
         font-size: 0.87rem;
     }
     .card-text{
-        font-size: 1.1rem;
-        
+        font-size: 1.1rem;  
     }
     .gift-title{
         font-size: 2.7rem;
@@ -383,7 +377,6 @@ body{
         margin-top: 0rem;
     }
 }
-
 @media(max-width:1400px){
     .card-body{
         margin-top: 4rem;

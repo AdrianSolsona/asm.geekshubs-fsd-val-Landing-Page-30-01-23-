@@ -27,7 +27,7 @@ Pagina web completamente funcional con navegación fluida por sus diferentes pá
 |-|-|-|
 |![](./images/CaravanPrincipal.JPG)|![](./images/CapturaCarruselimg.JPG)| ![](./images/formReadme.JPG)|
 
-|Parte de la pagina vouchers|Botón de suscripción| Metodos de pago|
+|Página vouchers|Botón de suscripción| Metodos de pago|
 |-|-|-|
 |![](./images/vouchersCapture.JPG)|![](./images/sendUsCaptura.JPG)| ![](./images/logos-pago-captura.JPG)|
 
@@ -44,7 +44,7 @@ Funcionalidad 2: Formularios de suscripción o de demanda de información en tod
 
 Funcionalidad 3: Menús desplegables con links de acceso a otras secciones. 
 
-Funcionalidad 4: EDiseño totalmente responsive en todas las paginas de la lading page.
+Funcionalidad 4: Diseño totalmente responsive en todas las paginas de la lading page.
 
 Funcionalidad 5: Posibilidad de descargar el archivo veganuary de la la pagina de menus asi como link de acceso para su mejor visualización.
 ### Acceso al proyecto
