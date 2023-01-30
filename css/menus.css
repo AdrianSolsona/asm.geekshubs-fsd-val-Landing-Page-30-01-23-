@@ -286,7 +286,7 @@ body{
     margin-bottom: 4rem;
     margin-top: 1rem;
 }
-
+/* Inicio de las media query*/
 @media(max-width: 576px){
     .links-foot{
         flex-direction: column;
